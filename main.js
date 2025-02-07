@@ -11,6 +11,8 @@ calculate.addEventListener('click', (e) => {
 
     discountAmt.value = billAmt * percentage / 100;
     FinalPay.value = billAmt - discountAmt.value;
+    harga.value = billAmt * percentage / 100;
+    total.value = billAmt - discountAmt.value;
 });
 
 resetBtn.addEventListener('click', () => {
